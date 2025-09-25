@@ -1,4 +1,5 @@
 import React from 'react'
+import TickerCard from './TickerCard'
 
 const stocks = [
   { ticker: 'NVDA', name: '엔비디아', currentPrice: 178.43, previousClose: 181.40 },
@@ -55,4 +56,4 @@ const TickerCard = ({ ticker, name, currentPrice, previousClose }) => {
   )
 }
 
-export default TickerCard
+export default App
