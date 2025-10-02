@@ -30,7 +30,7 @@ const TickerCard = ({ ticker }) => {
         fetchStockData()
     }, [ticker])
 
-    if (!loading) {
+    if (loading) {
         return (
             <div className="bg-white rounded-lg shadow-lg p-6 w-80 mx-auto animate-pulse">
                 <div className="h-6 bg-gray-200 rounded w-3/4 mb-4"></div>
