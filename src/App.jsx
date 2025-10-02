@@ -4,7 +4,7 @@ import TickerCard from './TickerCard'
 const stocks = [
   { ticker: 'NVDA' },
   { ticker: 'TSLA' },
-  { ticker: 'GOOGL1' },
+  { ticker: 'GOOGL' },
   //  { ticker: '005930.KS'},
 ]
 
