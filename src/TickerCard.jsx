@@ -77,7 +77,7 @@ const TickerCard = ({ ticker }) => {
             <div className="border-b border-gray-200 mb-4"></div>
 
             <div className={`text-4xl font-extrabold mb-2 ${isPositive ? 'text-green-600' : 'text-red-600'}`}>
-                {currencyMarker}{currentPrice.toFixed(2)}
+                {currencyMarker}{isKoreanStock ? currentPrice.toLocaleString() : currentPrice.toFixed(2)}
             </div>
 
             <div className={`text-base font-semibold ${isPositive ? 'text-green-700' : 'text-red-700'}`}>
